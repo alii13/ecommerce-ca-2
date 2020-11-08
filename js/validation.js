@@ -17,7 +17,7 @@ function login()
     }
     else if(pwd.length < 6 || pwd.length > 6)
     {
-        alert("Password min and max length is 6.");
+        alert("Password min and max length is 6.")
     }
     else
     {

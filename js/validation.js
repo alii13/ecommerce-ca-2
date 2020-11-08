@@ -5,7 +5,7 @@ function login()
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     if(uname =='')
     {
-        alert("please enter user name.");
+        alert("please enter user name.")
     }
     else if(pwd=='')
     {

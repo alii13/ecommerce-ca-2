@@ -249,107 +249,7 @@
 											<li><a href="contact.html">contact</a></li>
 										  </ul>
 									</li>
-									<li><a href="shop.html">Bedroom</a>
-										<ul>
-											<li><a href="#">Beds</a>
-												<ul>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Storage Beds</a></li>
-													<li><a href="#">Regular Beds</a></li>
-													<li><a href="#">Sleigh Beds</a></li>
-													<li><a href="#">modern beds</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Nightstands</a>
-												<ul>
-													<li><a href="#">Brown Finish</a></li>
-													<li><a href="#">Distressed</a></li>
-													<li><a href="#">Cherry Finish</a></li>
-													<li><a href="#">Weathered</a></li>
-													<li><a href="#">Laundry</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="shop.html">Living Room	</a>
-										<ul>
-											<li><a href="#">Beds</a>
-												<ul>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Storage Beds</a></li>
-													<li><a href="#">Regular Beds</a></li>
-													<li><a href="#">Sleigh Beds</a></li>
-													<li><a href="#">modern beds</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Nightstands</a>
-												<ul>
-													<li><a href="#">Brown Finish</a></li>
-													<li><a href="#">Distressed</a></li>
-													<li><a href="#">Cherry Finish</a></li>
-													<li><a href="#">Weathered</a></li>
-													<li><a href="#">Laundry</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="shop.html">Dining Room</a>
-										<ul>
-											<li><a href="#">Dining tables</a>
-												<ul>
-													<li><a href="#">Crochet</a></li>
-													<li><a href="#">Sleeveless</a></li>
-													<li><a href="#">Regular Beds</a></li>
-													<li><a href="#">Stripes</a></li>
-													<li><a href="#">Sweaters</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Dining chairs</a>
-												<ul>
-													<li><a href="#">Ankle</a></li>
-													<li><a href="#">Distressed</a></li>
-													<li><a href="#">Cherry Finish</a></li>
-													<li><a href="#">Weathered</a></li>
-													<li><a href="#">Laundry</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Phery Finiss</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
+
 									<li><a href="shop.html">pages</a>
 										<ul>
 											<li><a href="wishlist.html">my wishlist</a></li>
@@ -395,15 +295,15 @@
 								<h3>Registered Customers</h3>
 								<span>If you have an account, sign in with your email address.</span>
 							</div>
-							<div class="login-form">
+							<div class="login-form" onsubmit="login()" name="">
 								<form>									
 									<div class="form-group login-page">
 										<label for="exampleInputEmail1">Email <span>*</span></label>
-										<input type="text" class="form-control" id="exampleInputEmail1">
+										<input type="text" class="form-control" id="exampleInputEmail1" required>
 									</div>								
 									<div class="form-group login-page">
 										<label for="exampleInputPassword1">Password <span>*</span></label>
-										<input type="Password" class="form-control" id="exampleInputPassword1">
+										<input type="Password" class="form-control" id="exampleInputPassword1 pwd1" required>
 									</div>	
 									<button type="submit" class="btn btn-default login-btn">Sign In</button>
 								</form>						
@@ -553,6 +453,7 @@
 		<!-- .copyright-area-end -->
 		
 		<!-- all js here -->
+		<script src="js/validation.js"></script>
 		<!-- jquery latest version -->
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
 		<!-- bootstrap js -->
